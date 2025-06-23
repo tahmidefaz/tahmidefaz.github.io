@@ -8,7 +8,7 @@ tags: [ai, local-ai]     # TAG names should always be lowercase
 
 This article is meant to give a very high-level overview of running Large Language Models (LLM) locally on your own computer. This short article will not dig into the nitty gritty of running LLMs, and it will generalize a lot of ideas for simplicity. The intended audience is people without any coding background, or programmers who never ran an LLM locally.
 
-**TL;DR** Get [LM Studio](https://lmstudio.ai/) or [Jan](https://jan.ai/) on your computer. Download an LLM model of your choice, or choose one from the suggestions below, that’s it!
+**TL;DR** Get [LM Studio](https://lmstudio.ai/) or [Jan](https://jan.ai/) on your computer. Download an LLM model of your choice, or choose one from the [suggestions below](#some-model-suggestions), that’s it!
 
 ![image showing ai](/assets/posts/2025-06-22-Local-LLM-101-Running-LLMs-Locally/1.webp){: width="600" height="600" }
 _Photo by [Neeqolah Creative Works](https://unsplash.com/@neeqolah) on [Unsplash](https://unsplash.com)_
