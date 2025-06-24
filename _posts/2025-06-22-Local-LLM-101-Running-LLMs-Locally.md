@@ -25,7 +25,7 @@ There are many advantages of running LLMs locally on your machine rather than us
 
 ## Downloading the software
 
-There are many different ways to run Large Language Models (LLMs) locally. However, popular options like [llama.cpp](https://github.com/ggml-org/llama.cpp) and [Ollama](https://ollama.com) are not easy to use for people without a coding background, as they require extensive use of the terminal. [GPT4All](https://github.com/nomic-ai/gpt4all), [LM Studio](https://lmstudio.ai/), and [Jan](https://jan.ai/) are three popular options for running LLMs locally that are also quite user-friendly for non-technical people.
+There are many different ways to run Large Language Models locally. However, popular options like [llama.cpp](https://github.com/ggml-org/llama.cpp) and [Ollama](https://ollama.com) are not easy to use for people without a coding background, as they require extensive use of the terminal. [GPT4All](https://github.com/nomic-ai/gpt4all), [LM Studio](https://lmstudio.ai/), and [Jan](https://jan.ai/) are three popular options for running LLMs locally that are also quite user-friendly for non-technical people.
 
 Among these, in my opinion, GPT4All has a bit of room for improvement in its UI design. Therefore, I would recommend either LM Studio or Jan, both of which have a nice and intuitive user interface. Personally, I prefer LM Studio because, as a Mac user, it allows me to directly run Apple Silicon optimized MLX models in it ([see below](#what-is-gguf-what-is-mlx)), and their UI is slightly better than Jan’s.
 
@@ -57,7 +57,7 @@ Well, glad you asked! To choose the right LLM to run locally, there are a few th
 
 ### Hardware Consideration 🛠️
 
-To run Large Language Models (LLMs) locally, your hardware is the most significant factor to consider. While having a powerful CPU is recommended, it’s not as important as your GPU memory (VRAM) or system memory (RAM). Generally, if the size of the LLM model file you intend to run is smaller than your VRAM or RAM (or their combined total), you can run it on your computer. However, if you fully load your VRAM or RAM with the LLM, the inference speed may be significantly slow. Therefore, it’s essential to allocate some wiggle room. VRAM is typically better suited for running LLMs due to its faster speed through parallel processing.
+To run Large Language Models locally, your hardware is the most significant factor to consider. While having a powerful CPU is recommended, it’s not as important as your GPU memory (VRAM) or system memory (RAM). Generally, if the size of the LLM model file you intend to run is smaller than your VRAM or RAM (or their combined total), you can run it on your computer. However, if you fully load your VRAM or RAM with the LLM, the inference speed may be significantly slow. Therefore, it’s essential to allocate some wiggle room. VRAM is typically better suited for running LLMs due to its faster speed through parallel processing.
 
 In Windows and Linux systems, VRAM can be obtained through an NVIDIA graphics card such as the 3090, 4080, etc. On Mac systems equipped with Apple M-Series chips, a portion of your RAM is allocated to VRAM. For instance, if you have a 16 GB M3 Mac, part of this memory is dedicated to VRAM. This is called Unified Memory.
 
