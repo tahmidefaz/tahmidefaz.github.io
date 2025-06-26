@@ -4,6 +4,12 @@ date: 2025-06-26 10:10:10 +0500
 categories: [Projects, Artificial Intelligence]
 tags: [ai]     # TAG names should always be lowercase
 ---
+{%
+    include embed/audio.html
+    src='/assets/posts/2025-06-26-Callisto-In-Browser-AI-Assistant/audio.wav'
+    title='Listen to the article'
+%}
+
 I recently had an opportunity to participate in a small hackathon and work on an AI project called Callisto. It's an in-browser conversational AI assistant that leverages the power of WebGPU, making it entirely backend-free and capable of running directly in your browser.
 
 ### What is Callisto?
