@@ -1,7 +1,7 @@
 ---
 title: "Local LLM 101: Running LLMs locally"
 date: 2025-06-22 20:20:20 +0500
-categories: [Blog, Artificial Intelligence]
+categories: [Blogs, Artificial Intelligence]
 tags: [ai, local-ai]     # TAG names should always be lowercase
 ---
 *For the non-technical people, or first timers...*
